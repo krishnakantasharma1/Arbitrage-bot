@@ -2,6 +2,8 @@ import os
 import time
 from binance.client import Client
 from binance.enums import *
+import requests
+print("PUBLIC IP:", requests.get("https://api.ipify.org").text)
 
 # =====================
 # LOAD ENV VARIABLES
