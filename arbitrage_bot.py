@@ -4,8 +4,8 @@ import os
 from binance.client import Client
 from binance.enums import *
 
-API_KEY = "3KGa3klZtYV4ETszh1xIWBZTvOKrhxuJ907OvxJKuu0CcgpTVOcdr9gpGYAUoNRc"
-API_SECRET = "1VzwntpWSQUiq57AUq8VIGSXWok6GIO8vZbPmvE6i9iwvuqiH3DrR5zI4Ca3pqzy"
+API_KEY = "BINANCE_API_KEY"
+API_SECRET = "BINANCE_API_SECRET"
 
 client = Client(API_KEY, API_SECRET)
 
